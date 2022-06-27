@@ -651,63 +651,6 @@ button {
     justify-content: center;
 }
 
-.modal-title {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    min-width: 448px;
-    margin-bottom: 12px;
-}
-
-.modal-field {
-    margin-bottom: 10px;
-}
-
-.modal-label {
-    display: block;
-    margin-bottom: 4px;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;   
-    color: #757575;
-}
-
-.modal-input {
-    width: 100%;
-    height: 40px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    background-color: transparent;
-}
-
-.modal-input:not(:placeholder-shown):not(:focus):valid {
-    background-color: green;
-}
-
-.modal-input:placeholder-shown {
-    background-color: transparent;
-}
-
-.modal-input::placeholder {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.17px;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-}
- 
-.modal-text-area {
-    width: 100%;
-    height: 120px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    resize: none;
-    padding: 12px;
-}
-
 .modal-button {
     width: 200px;
     height: 50;
